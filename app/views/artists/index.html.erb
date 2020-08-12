@@ -1,5 +1,5 @@
 <h1>Artists</h1>
 
 <%@artists.each do |artist|%>
-  <%= link_to "#{artist.name} - #{artist.song_count}", artist_path(artist)%>
+  <%= "#{artist.name} - #{artist.song_count}"%>
 <%end%>
